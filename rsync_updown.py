@@ -16,7 +16,7 @@ def download(ip):
 def main():
     if sys.argv[1] == '--help':
         print("""
-        Usage: ./script.py [mode] [ip address]
+        Usage: ./rsync_updown.py [mode] [ip address]
         Modes:
         -d : for downloading
         -u : for uploading
