@@ -3,6 +3,7 @@
 """
 Script for uploading - downloading files from one directory on my phone to one on my laptop.
 I'm using an app called sshelper which creates sftp connection from phone to laptop using ssh, and it supports rsync.
+Need to establish a connection first before running the script.
 """
 
 import os, sys
