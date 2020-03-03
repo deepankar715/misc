@@ -44,10 +44,10 @@ def sanatize(args):
         exit(1)
 
     # Only allow certain characters while naming the clone.
-    whitelist = string.ascii_letters + string.digits + "\t -_."
+    whitelist = string.ascii_letters + string.digits + "-_."
     for letter in args.new_name:
         if letter not in whitelist:
-            print("Argument(s) contains illegal characters. Only numbers, letters, space, ., - and _ are allowed. Exiting")
+            print("Argument(s) contains illegal characters. Only numbers, letters, ., - and _ are allowed. Exiting")
             exit(1)
 
     else:
